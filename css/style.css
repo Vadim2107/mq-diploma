@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*font-size: 15px;  
+    line-height: 22px;*/
+  }
+  
+  .header {
+    position: relative;
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_767.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+  }
+  
+  .header::before {
+    content: "";
+    background-color: #070d5e;
+    opacity: 0.8;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .container-logo {
+    margin: 0 auto 135px;
+    width: 133px;
+  }
+  
+  .header-container {
+    
+  }
+  
+  .header-logo {
+    fill: #ffffff;
+    padding-top: 32px; 
+  }
+  
+  .header-title, .header-slogan {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  .header-title {
+    margin-left: 20px;
+    margin-bottom: 31px;
+  }
+  
+  .header-slogan {
+    margin-left: 64px;
+    margin-bottom: 88px;
+  }
+  
+  /*@media (max-width: 640px) {
+    .header {
+      background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_767.jpg");
+    }
+  }
+  
+  @media (min-width: 641px) and (max-width: 960px) {
+    .header {
+      background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_767.jpg");
+    }
+  }
+  
+  @media (min-width: 961px) and (max-width: 1920px) {
+    .header {
+      background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_1280.jpg");
+    }
+  }
+  
+  @media (min-width: 1921px) {
+    .header {
+      background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_1920.jpg");
+    }
+  }*/
