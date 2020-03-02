@@ -154,7 +154,8 @@ body {
   top: 80px;
 }
 
-.section-title {    
+.section-title {
+  box-sizing: border-box;
   font-size: 50px;
   color: #e7e7e7;
   text-transform: uppercase;
@@ -540,17 +541,27 @@ body {
   }  
 
   .container-content {
-    margin-left: auto;
     width: 50%;
-    padding-top: 62px;
-    padding-bottom: 62px;
-  }
+    max-width: 750px;
+    margin-left: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 0;
+  }  
 
   .container-content-players {
     width: 50%;
-    padding-top: 62px;
-    padding-bottom: 62px;
-    padding-left: 80px;
+    max-width: 750px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 40px;
+    margin-right: 50%;
+    margin-left: auto;
+  }
+
+  .content-big {
+    padding-top: 90px;
   }
 
   .main {
@@ -561,31 +572,47 @@ body {
     content: url(../images/footballer_566.png);       
     left: auto;
     right: calc(50% + 20px);
-    top: 94px;
+    top: 10px;
   }
 
   .section-players::before {
     content: url(../images/basketballer_991.png);       
     right: 0;
-    top: 40px;
-    left: 50%;
-  }
-
-  .section-title {
-    padding-left: 80px;
-  }
+    top: 10px;
+    left: calc(50% - 140px);
+  }  
 
   .section-title-athlets {
     width: 50%;
+    margin-left: 50%;
+    padding-left: 0;
+  }
+  
+  .section-title-players {
+    width: 50%;
+    max-width: 750px;
+    padding-left: 40px;
     margin-left: auto;
-  }  
+    margin-right: 50%;
+  }
   
   .content-title {
     font-size: 36px;
   }
 
   .content-text {
+    width: 100%;
     font-size: 20px;
+  }
+
+  .container-item {
+    left: -85px;
+    top: 210px;
+  }
+
+  .container-item-even {
+    left: auto;    
+    right: -85px;    
   }
 
   .article-item {
@@ -593,31 +620,18 @@ body {
     height: 170px;
   }
   
-  .article__section {
-    width: 50%;
+  .article__section {    
     font-size: 80px;
     line-height: 80px;
-    /*padding-left: 128px;
-    padding-top: 20px;*/
-    padding-top: 0;
-    padding-left: 0;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 128px;
+    padding-top: 250px;    
   }
 
-  /*.article__section-even {
-    padding-left: 80px;
-  }*/
-
   .article-text {
+    width: 65%;
     font-size: 24px;
     padding-left: 128px;
     padding-bottom: 0;    
-  }
-
-  .article-text-even {
-    padding-left: 80px;
   }
 
   .article-conteiner {
@@ -633,21 +647,8 @@ body {
   }  
 
   .article-content {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .container-item {
-    left: -85px;
-    top: 25%;
-  }
-  
-  .container-item-even {
-    left: auto;    
-    right: -85px;    
-  }
+    width: 50%;    
+  }  
 
   .footer-block {
     display: flex;
@@ -701,9 +702,23 @@ body {
     max-width: 1400px;
   }
 
+  .article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .container-item {
     top: calc(50% - 85px);
-  }  
+  }
+  
+  .article__section {
+    padding-left: 0;
+    padding-top: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .article-text {
     width: 50%;
