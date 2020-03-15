@@ -258,14 +258,16 @@ body {
   font-size: 23px;
   font-weight: 700;
   color: #c1c1c1;
-  text-transform: uppercase;  
+  text-transform: uppercase;
+  letter-spacing: 1px;  
 }
 
 .content-text {
-  width: 85%;
+  width: 95%;
   font-size: 15px;
   margin: 0;
   line-height: 18px;
+  letter-spacing: 0.8px;
 }
 
 .be-active__img, .find-contact__img, .work-it__img {
@@ -284,11 +286,15 @@ body {
   font-size: 28px;
 }
 
+.article__section-even {
+  margin-bottom: 12px;
+}
+
 .article-text {
   font-size: 16px;
   padding-bottom: 75px;
   padding-left: 20px;
-  width: 80%;
+  width: 90%;
   line-height: 21px;
 }
 
