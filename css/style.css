@@ -220,6 +220,10 @@ body {
   padding-top: 64px;
 }
 
+.content-big-players {
+  padding-top: 68px;
+}
+
 .content__item {
   font-size: 14px;
   font-weight: 700;
