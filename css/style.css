@@ -838,7 +838,7 @@ body {
   }
 }
 
-/*@media (min-width: 961px) and (max-width: 1600px) {
+@media (min-width: 961px) and (max-width: 1600px) {
   .article__section {
     font-size: 50px;
     padding-top: 30px;
@@ -866,7 +866,7 @@ body {
     right: -65px;
     left: auto;
   }  
-}*/
+}
   
 @media (min-width: 1921px) {
   .header {
