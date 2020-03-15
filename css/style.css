@@ -298,6 +298,10 @@ body {
   line-height: 21px;
 }
 
+.article-text-even {
+  padding-bottom: 77px;
+}
+
 .container-item {
   position: absolute;
   left: 20px;  
