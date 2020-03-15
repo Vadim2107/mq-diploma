@@ -478,8 +478,8 @@ body {
   }
 
   .link-text-container {    
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .link {
@@ -647,38 +647,62 @@ body {
 @media (min-width: 961px) {
   .header {
     background-image: url("../images/football_1280.jpg");
+    padding-bottom: 110px;
   }
   
   .footer {
     background-image: url("../images/game_1280.jpg");
   }
 
+  .container {
+    padding-top: 40px;
+  }
+
+  .container-logo {
+    margin-bottom: 250px;
+  }
+
   .header-title-container {
     box-sizing: border-box;
-    max-width: 1440px;
+    max-width: 1580px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 222px;
   }
 
   .header-title, .header-slogan {
     font-size: 90px;
+    letter-spacing: 5px;
   }
 
   .header-slogan {
     padding-left: 0;
     text-align: right;
-  }  
+  }
+
+  .footer-link:nth-child(2) {
+    margin-left: 50px;
+  }
+
+  .link-container {
+    width: 240px;
+  }
+
+  .link-logo {
+    width: 50px;
+    margin-right: 20px;
+  }
 
   .container-content {
     width: 50%;
-    max-width: 720px;
+    max-width: 790px;
     margin-left: 50%;
-    padding: 50px 20px 50px 0;    
+    padding: 50px 20px 50px 50px;    
   }  
 
   .container-content-players {
     width: 50%;
-    max-width: 720px;
+    max-width: 790px;
     padding-top: 55px;
     padding-bottom: 55px;
     padding-left: 20px;
@@ -686,8 +710,12 @@ body {
     margin-left: auto;
   }
 
+  .content-big {
+    padding-left: 50px;
+  }
+
   .content-big, .content-big-players {
-    padding-top: 90px;
+    padding-top: 80px;    
   }
 
   .main {
@@ -697,27 +725,30 @@ body {
   .section-athlets::before {
     content: url(../images/footballer_566.png);       
     left: auto;
-    right: calc(50% + 20px);
-    top: 10px;
+    right: 50%;
+    top: 25px;
   }
 
   .section-players::before {
     content: url(../images/basketballer_991.png);       
     right: 0;
-    top: 10px;
-    left: calc(50% - 140px);
-  }  
+    top: 25px;
+    left: calc(50% - 150px);
+  }
+
+  .section-image {
+    padding-top: 80px;
+  }
 
   .section-title-athlets {
     width: 50%;
     margin-left: 50%;
-    padding-left: 0;
+    padding-left: 50px;
   }
   
   .section-title-players {
     width: 50%;
-    max-width: 720px;
-    /*padding-left: 40px;*/
+    max-width: 790px;    
     margin-left: auto;
     margin-right: 50%;
   }
