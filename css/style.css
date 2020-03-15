@@ -493,7 +493,7 @@ body {
     margin-right: auto;
   }
 
-  .content-big {
+  .content-big, .content-big-players {
    padding-top: 22px;
   }
 
@@ -593,7 +593,7 @@ body {
     margin-left: auto;
   }
 
-  .content-big {
+  .content-big, .content-big-players {
     padding-top: 90px;
   }
 
