@@ -608,12 +608,39 @@ body {
   }
 
   .container-footer {
+    padding-top: 130px;
     padding-bottom: 22px;
   }
 
   .logo-container {
     width: 134px;
     height: 134px;
+    border-radius: 22px;
+    margin-bottom: 55px;
+  }
+
+  .logo {
+    top: 18px;
+    left: 16px
+  }
+
+  .footer-title-container {
+    margin-bottom: 270px;
+  }
+
+  .footer-title {
+    font-size: 80px;
+    letter-spacing: 4px;
+  }
+
+  .footer-slogan {
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  .footer-logo-container {
+    width: 205px;
+    margin-top: 50px;
   }
 }
   
