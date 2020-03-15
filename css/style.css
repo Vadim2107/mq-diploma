@@ -179,6 +179,11 @@ body {
   margin-bottom: 0px;
 }
 
+.section-title-players {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
 .section-content:nth-child(3n+2) {
   background-color: #fafafa;
 }
@@ -199,7 +204,7 @@ body {
 
 .container-content, .container-content-players {
   box-sizing: border-box;
-  padding-top: 55px;
+  padding-top: 50px;
   padding-bottom: 55px;
   padding-left: 20px;
 }
@@ -252,9 +257,10 @@ body {
 }
 
 .content-text {
-  width: 87.5%;
+  width: 85%;
   font-size: 15px;
-  margin: 0;    
+  margin: 0;
+  line-height: 18px;
 }
 
 .be-active__img, .find-contact__img, .work-it__img {
