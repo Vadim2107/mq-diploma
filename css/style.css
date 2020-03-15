@@ -802,7 +802,7 @@ body {
     width: 880px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 152px;
+    margin-bottom: 270px;
   }
 
   .logo-container {
@@ -813,8 +813,12 @@ body {
     margin-right: 42px;
   }
 
+  .footer-title-container {
+    margin-bottom: 0;
+  }
+
   .footer-title {
-    font-size: 80px;
+    letter-spacing: 3px;
   }
 
   .footer-slogan {
@@ -834,15 +838,14 @@ body {
   }
 }
 
-@media (min-width: 961px) and (max-width: 1600px) {
+/*@media (min-width: 961px) and (max-width: 1600px) {
   .article__section {
     font-size: 50px;
     padding-top: 30px;
     margin-bottom: 22px;
   }
 
-  .article__section-even {
-    /*max-width: 85%;*/
+  .article__section-even {    
     line-height: 50px;
   }
 
@@ -863,7 +866,7 @@ body {
     right: -65px;
     left: auto;
   }  
-}
+}*/
   
 @media (min-width: 1921px) {
   .header {
