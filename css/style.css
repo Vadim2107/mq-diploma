@@ -688,6 +688,10 @@ body {
     width: 240px;
   }
 
+  .link-container-google {
+    width: 200px;
+  }
+
   .link-logo {
     width: 50px;
     margin-right: 20px;
