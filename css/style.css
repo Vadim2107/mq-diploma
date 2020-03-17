@@ -374,6 +374,7 @@ body {
 }
 
 .logo-container {
+  display: block;
   position: relative;
   box-sizing: border-box;  
   width: 72px;
@@ -423,7 +424,7 @@ body {
 .footer-logo-container {
   display: block;
   width: 134px;
-  margin: 80px auto 0;  
+  margin: 77px auto 0;  
 }
 
 .footer-logo {
@@ -555,7 +556,7 @@ body {
   }
 
   .content-big, .content-big-players {
-   padding-top: 26px;
+   padding-top: 30px;
   }
 
   .content__item {
@@ -928,7 +929,7 @@ body {
   }
 
   .header-title-container {
-    max-width: 1400px;
+    max-width: 1580px;
   }
 
   .article-content {
