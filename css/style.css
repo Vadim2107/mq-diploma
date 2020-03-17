@@ -216,15 +216,15 @@ body {
 }
 
 .container-content-players {
-  padding-top: 46px;
-  padding-bottom: 56px;
+  padding-top: 50px;
+  padding-bottom: 55px;
 }
 
 .content {
   display: flex;
   width: 87.5%;  
   margin-bottom: 18px;  
-  align-items: center;   
+  /*align-items: center;*/
 }
 
 .content-big {
