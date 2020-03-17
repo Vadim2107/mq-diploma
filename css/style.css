@@ -689,11 +689,8 @@ body {
 
   .link-container {
     width: 240px;
-  }
-
-  .link-container-google {
-    width: 200px;
-  }
+    justify-content: center;
+  }  
 
   .link-logo {
     width: 50px;
@@ -710,8 +707,8 @@ body {
   .container-content-players {
     width: 50%;
     max-width: 790px;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 50px;
+    padding-bottom: 70px;
     padding-left: 20px;
     margin-right: 50%;
     margin-left: auto;
@@ -792,30 +789,31 @@ body {
   .article__section {    
     font-size: 80px;
     line-height: 80px;
-    padding-left: 120px;
-    padding-top: 250px;    
+    padding-left: 135px;
+    padding-top: 250px;
+    margin-bottom: 98px;    
   }
 
   .article__section-even {
-    max-width: 720px;
+    max-width: 790px;
     box-sizing: border-box;
     margin-left: auto;
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 105px;
+    margin-bottom: 66px;
   }
 
   .article-text {
     box-sizing: border-box;
-    max-width: 720px;
+    max-width: 790px;
     font-size: 24px;
-    padding-left: 120px;
-    padding-bottom: 0;
-    padding-right: 20px;
+    padding-left: 135px;
+    padding-bottom: 0;    
   }
 
   .article-text-even {
     margin-left: auto;
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 105px;
   }
 
@@ -837,15 +835,16 @@ body {
   
   .container-footer {
     padding-bottom: 62px;
+    padding-top: 235px;    
   }
 
   .footer-block {
     display: flex;
     align-items: center;
-    width: 880px;
+    width: 870px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 270px;
+    margin-bottom: 150px;
   }
 
   .logo-container {
@@ -853,7 +852,7 @@ body {
     width: 132px;
     height: 132px;
     border-radius: 40px;
-    margin-right: 42px;
+    margin-right: 30px;
   }
 
   .footer-title-container {
@@ -861,7 +860,7 @@ body {
   }
 
   .footer-title {
-    letter-spacing: 3px;
+    letter-spacing: 3.5px;
   }
 
   .footer-slogan {
