@@ -106,11 +106,13 @@ body {
   margin-bottom: 10px;
   background-color: #5e42b0;
   border-radius: 16px;
+  border: solid 1px transparent;
   box-sizing: border-box;
 }
 
 .footer-link:hover {
-  background-color: #1a1ade;  
+  background-color: #1a1ade;
+  border-color: #ffffff;
 }
 
 .link {    
@@ -159,14 +161,14 @@ body {
 
 .section-athlets::before {
   content: url(../images/footballer_192.png);    
-  left: calc(50% - 86px);
+  left: calc(50% - 90px);
   top: 70px;
 }
 
 .section-players::before {
   content: url(../images/basketballer_302.png);    
   left: calc(50% - 150px);
-  top: 80px;
+  top: 77px;
 }
 
 .section-title {
@@ -181,8 +183,8 @@ body {
 }
 
 .section-title-players {
-  margin-top: 0;
-  padding-left: 20px;
+  margin-top: 5px;
+  padding-left: 18px;
 }
 
 .section-content:nth-child(3n+2) {
@@ -222,7 +224,7 @@ body {
 }
 
 .content-big-players {
-  padding-top: 70px;
+  padding-top: 68px;
 }
 
 .content__item {
@@ -370,12 +372,13 @@ body {
   height: 72px;
   background-color: #5e42b0;    
   border-radius: 16px;
+  border: solid 1px transparent;
   margin: 0 auto 50px;  
 }
 
 .logo-container:hover {
   background-color: #1a1ade;
-  border: solid 1px #ffffff;
+  border-color: #ffffff;
 }
 
 .logo {
@@ -412,7 +415,7 @@ body {
 .footer-logo-container {
   display: block;
   width: 134px;
-  margin: 82px auto 0;  
+  margin: 80px auto 0;  
 }
 
 .footer-logo {
@@ -640,7 +643,7 @@ body {
 
   .footer-logo-container {
     width: 205px;
-    margin-top: 50px;
+    margin-top: 55px;
   }
 }
   
