@@ -224,7 +224,7 @@ body {
   display: flex;
   width: 87.5%;  
   margin-bottom: 18px;  
-  /*align-items: center;*/
+  align-items: center;
 }
 
 .content-big {
@@ -926,34 +926,5 @@ body {
 
   .footer {
     background-image: url("../images/game_1920.jpg");
-  }
-
-  .header-title-container {
-    max-width: 1580px;
-  }
-
-  .article-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .container-item {
-    top: calc(50% - 85px);
-  }
-  
-  .article__section {
-    padding-left: 0;
-    padding-top: 0;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .article-text {
-    width: 50%;
-    padding-left: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  } 
 }
