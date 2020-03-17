@@ -206,10 +206,18 @@ body {
 }
 
 .container-content, .container-content-players {
-  box-sizing: border-box;
-  padding-top: 50px;
-  padding-bottom: 55px;
+  box-sizing: border-box;  
   padding-left: 20px;
+}
+
+.container-content {
+  padding-top: 46px;
+  padding-bottom: 56px;
+}
+
+.container-content-players {
+  padding-top: 46px;
+  padding-bottom: 56px;
 }
 
 .content {
